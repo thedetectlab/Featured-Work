@@ -1,73 +1,38 @@
 <div align="center">
 
 ```
-r o o t @ s n i f f e r : ~ #  w h o a m i
+r o o t @ s n i f f e r : ~ / f e a t u r e d - w o r k #  l s  - l a
 ```
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=33FF66&center=true&vCenter=true&width=650&lines=THE+DETECT+LAB;Cybersecurity+Research+%2F%2F+Field+Guides;Identity%3A+redacted.+Work%3A+public." alt="Typing SVG" />
+# 🗂 Featured Work
+
+**Reference-grade cheat sheets and query sets — tested in the field, not written for a course.**
+
+<img src="https://img.shields.io/badge/type-reference%20repos-33FF66?style=for-the-badge&labelColor=0A0F0A" />
+<img src="https://img.shields.io/badge/status-active-33FF66?style=for-the-badge&labelColor=0A0F0A" />
 
 </div>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/status-active-33FF66?style=for-the-badge&labelColor=0A0F0A" />
-  <img src="https://img.shields.io/badge/focus-network%20security%20%2F%20SOC%20%2F%20appsec-33FF66?style=for-the-badge&labelColor=0A0F0A" />
-  <img src="https://img.shields.io/badge/identity-anonymous%20by%20design-33FF66?style=for-the-badge&labelColor=0A0F0A" />
-</p>
-
-
-## 🗂 Featured Work
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### 🦈 Nmap Cheat Sheet
-Every flag that actually matters — host discovery, scan types, NSE scripts, output formats.
-<br><sub>`nmap` · `recon` · `bash`</sub> · [→ repo](https://github.com/thedetectlab/nmap-cheatsheet)
-
-</td>
-<td width="50%" valign="top">
-
-### 🔍 Wireshark Filters Reference
-Display and capture filters that come up in real troubleshooting, not the whole manual rewritten.
-<br><sub>`wireshark` · `tshark` · `pcap`</sub> · [→ repo](https://github.com/thedetectlab/wireshark-filters)
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 🛡 SOC Detection Queries
-Real Event IDs, real SPL/KQL queries, mapped to MITRE ATT&CK — ten attacks, ready to adapt.
-<br><sub>`SOC` · `MITRE` · `splunk` · `sentinel`</sub> · [→ repo](https://github.com/thedetectlab/soc-detection-queries)
-
-</td>
-<td width="50%" valign="top">
-
-### 🐍 Python Automation Snippets
-Small scripts for repetitive work that shouldn't need a human — files, spreadsheets, PDFs, web data.
-<br><sub>`python` · `automation` · `scripting`</sub> · [→ repo](https://github.com/thedetectlab/python-automation-snippets)
-
-</td>
-</tr>
-</table>
-
-<p align="center"><sub>⭐ starring a repo is the easiest way to keep it on your radar — new work gets added on no fixed schedule, whenever it's field-tested enough to publish.</sub></p>
-
 ---
 
+Every folder here is a standalone reference — the flags, filters, or queries that actually come up, without the filler. Pick the one you need and go straight to it.
 
-## 📡 Contact
+| Folder | What's inside | Stack |
+|---|---|---|
+| 🎯 [`nmap-cheatsheet`](./nmap-cheatsheet) | Host discovery, scan types, port states, NSE scripts, output formats | `nmap` `recon` `bash` |
+| 🔍 [`wireshark-filters`](./wireshark-filters) | Display and capture filters for real troubleshooting, not the whole manual | `wireshark` `tshark` `pcap` |
+| 🛡 [`soc-detection-queries`](./soc-detection-queries) | Real Event IDs, SPL/KQL queries, mapped to MITRE ATT&CK | `SOC` `MITRE` `splunk` `sentinel` |
+| 🐍 [`python-automation-snippets`](./python-automation-snippets) | Scripts for repetitive work — files, spreadsheets, PDFs, web data | `python` `automation` `scripting` |
 
-<p align="center">
-  <a href="https://www.threads.com/@thedetectlab?invite=0"><img src="https://img.shields.io/badge/Threads-@thedetectlab-33FF66?style=for-the-badge&labelColor=0A0F0A" /></a>
-</p>
+---
 
 <div align="center">
 
 ```
-[ EDUCATIONAL EDITION // FOR ETHICAL USE ONLY ]
-questions, corrections, or requests — open an issue or reply to a thread
+TYPE      FIELD REFERENCE
+STATUS    ACTIVE
 ```
+
+⭐ Starring this repo is the easiest way to keep it on your radar — new folders get added whenever something's field-tested enough to publish, no fixed schedule.
 
 </div>
