@@ -14,28 +14,6 @@ r o o t @ s n i f f e r : ~ #  w h o a m i
   <img src="https://img.shields.io/badge/identity-anonymous%20by%20design-33FF66?style=for-the-badge&labelColor=0A0F0A" />
 </p>
 
-<p align="center">
-  <a href="#-featured-work">Featured Work</a> ·
-  <a href="#-writeups">Writeups</a> ·
-  <a href="#-skills">Skills</a> ·
-  <a href="#-now">Now</a> ·
-  <a href="#-contact">Contact</a>
-</p>
-
----
-
-### `~/about.md`
-
-```yaml
-handle:      The Detect Lab
-operates_as: an anonymous cybersecurity research & field-guide practice
-focus:       network security, SOC operations, applied appsec
-what_i_do:   turn dense security concepts into practical, field-tested references
-```
-
-No name, no headshot, no employer namedropping. Just the work — Wireshark, Nmap, SOC detection, and the mistakes nobody warns you about, turned into references built to survive an actual shift.
-
----
 
 ## 🗂 Featured Work
 
@@ -78,77 +56,6 @@ Small scripts for repetitive work that shouldn't need a human — files, spreads
 
 ---
 
-## 📝 Writeups
-
-<table>
-<tr><td>
-
-**[Anatomy of a SQL Injection](https://github.com/thedetectlab/writeups-/tree/main/sql-injection)** — how one unescaped quote breaks a query, and the fix that actually holds
-
-</td></tr>
-<tr><td>
-
-**[TCP 3-Way Handshake, Packet by Packet](https://github.com/thedetectlab/writeups-/tree/main/tcp-handshake)** — what Wireshark is really showing you in those first three lines
-
-</td></tr>
-<tr><td>
-
-**[ARP Spoofing: Anatomy of a MITM](https://github.com/thedetectlab/writeups-/tree/main/arp-spoofing)** — how a network ends up trusting the last reply it heard
-
-</td></tr>
-</table>
-
-<p align="center"><sub>Longer breakdowns live here — the repos above are the reference version, this is the explanation.</sub></p>
-
----
-
-## 🧠 Skills
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Wireshark-00FFFF?style=flat-square&logo=wireshark&logoColor=0A0F0A" />
-  <img src="https://img.shields.io/badge/Nmap-00FFFF?style=flat-square&logo=nmap&logoColor=0A0F0A" />
-  <img src="https://img.shields.io/badge/Linux-00FFFF?style=flat-square&logo=linux&logoColor=0A0F0A" />
-  <img src="https://img.shields.io/badge/Python-00FFFF?style=flat-square&logo=python&logoColor=0A0F0A" />
-  <img src="https://img.shields.io/badge/SQL-00FFFF?style=flat-square&logo=postgresql&logoColor=0A0F0A" />
-  <img src="https://img.shields.io/badge/Git-00FFFF?style=flat-square&logo=git&logoColor=0A0F0A" />
-  <img src="https://img.shields.io/badge/Regex-00FFFF?style=flat-square&logo=regex101&logoColor=0A0F0A" />
-  <img src="https://img.shields.io/badge/Prompt%20Engineering-00FFFF?style=flat-square&logo=openai&logoColor=0A0F0A" />
-</p>
-
-| Domain | Focus |
-|---|---|
-| 🦈 Network Analysis | Wireshark, tshark, packet-level troubleshooting |
-| 🎯 Recon & Scanning | Nmap, service enumeration, capture filters |
-| 🛡 SOC Operations | Alert triage, shift handover, log correlation, MITRE ATT&CK mapping |
-| 🐛 AppSec | Injection attacks, secure query design, common vuln classes |
-| 🤖 AI Workflows | Prompt engineering, automation pipelines, AI-assisted research |
-| 🧩 Dev Fundamentals | Regex, SQL, Git — the stuff that shows up under pressure |
-
----
-
-## 📊 Stats
-
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=thedetectlab&show_icons=true&hide_border=true&bg_color=0A0F0A&title_color=33FF66&icon_color=33FF66&text_color=B9F5C9&ring_color=33FF66" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=thedetectlab&layout=compact&hide_border=true&bg_color=0A0F0A&title_color=33FF66&text_color=B9F5C9" />
-</p>
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com/?user=thedetectlab&hide_border=true&background=0A0F0A&stroke=33FF66&ring=33FF66&fire=33FF66&currStreakLabel=33FF66&sideLabels=B9F5C9&currStreakNum=B9F5C9&sideNums=B9F5C9&dates=1F7A3F" />
-</p>
-
----
-
-## 🧭 Now
-
-```yaml
-writing:      the next entry in the SOC detection series
-maintaining:  Nmap Cheat Sheet, Wireshark Filters Reference
-reading:      MITRE ATT&CK technique writeups
-open_to:      corrections, PRs, and "you missed a flag" issues
-```
-
----
 
 ## 📡 Contact
 
