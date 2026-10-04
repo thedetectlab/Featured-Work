@@ -1,0 +1,10 @@
+[
+  {
+    "id": "C-3001",
+    "timestamp": "2026-02-10T22:01:00Z",
+    "host": "SRV-FILE-02",
+    "user": "svc_backup",
+    "event_type": "file_write",
+    "details": {"files_modified_last_minute": 412}
+  }
+]
